@@ -1,0 +1,17 @@
+binomial coefficient:
+there are three methods to calculate binomial co-efficnet of an array
+
+2-d array:
+1) it uses dynamic programming
+2) we can use it whenever we need to compute a binomial coefficient of large number and we need all the coefficient value from 1 to k
+3) as it involves pre-computation time complexity is n*k
+
+recurrsion:
+1) it is used when you have a small number so that recurrsion will not use much space
+2) time complexity is (2^k)n
+
+memory occupied is same in both the cases, but to calculate many values we need to do recalculation in case of recurrsion whereas in dynamic programming it is pre calculated.
+
+1-d array:
+1) it is used when we need to calculate the binomial co-efficnet of only one line.
+2) time complexity is k.
