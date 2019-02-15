@@ -14,4 +14,4 @@ memory occupied is same in both the cases, but to calculate many values we need 
 
 1-d array:
 1) it is used when we need to calculate the binomial co-efficnet of only one line.
-2) time complexity is k.
+2) time complexity is n.
