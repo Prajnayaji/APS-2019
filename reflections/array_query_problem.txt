@@ -1,0 +1,25 @@
+Look-up table:
+1) Time complexity for pre-processing O(n^2)
+2) Space complexity is O(n^2)
+3) Time complexity to search the given value is O(1)
+
+Square-root decomposition for array query:
+1) Time complexity for pre-processing O(n)
+2) Space complexity is O(root(n))
+3) Time complexity to search the given element is O(root(n))
+4) This can be searched in root(n) time only if the entire block is covered, otherwise we have to go for the original array 
+
+
+Both look-up table and square-root-decomposition table can be used for dynamic array
+
+
+Segment Tree:
+1) Time complexity to build the segment tree is O(nlogn)
+2) Searching time is O(logn)
+3) Space complexity is O(nlogn)
+4) It is efficinet to use only if the array is static
+
+Kadane's Algorithm to find the maximum subarray sum:
+1) If the array contains all positive numbers, then the maximum sub array sum is the sum of entire array
+2) If the array contains all negative numbers, then the maximum sub array sum is the smallest absolute value
+3) The run time complexity of Kadane's algorithm is  o(n)
